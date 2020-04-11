@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+/* line 6, ../sass/screen.scss */
+body {
+  font-family: "Comic Neue", cursive;
+  overflow-x: hidden;
+}
+
+/* line 13, ../sass/screen.scss */
+.sf-z-12-hover:hover {
+  z-index: 12;
+}
+
+/* line 20, ../sass/screen.scss */
+.category-item:hover .category-item-info {
+  opacity: 1;
+  z-index: 0;
+}
+
+/* line 29, ../sass/screen.scss */
+.category-item-info {
+  opacity: 0;
+  z-index: -10;
+  background: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(33%, transparent), to(rgba(0, 0, 0, 0.85)));
+}
+
+/* line 43, ../sass/screen.scss */
+.swiper-container.category-swiper-container {
+  overflow: initial;
+}
+
+/* line 49, ../sass/screen.scss */
+.fsm-inside-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+/* line 52, ../sass/screen.scss */
+.fsm-inside-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+/* line 55, ../sass/screen.scss */
+.fsm-inside-scroll::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+}
+/* line 58, ../sass/screen.scss */
+.fsm-inside-scroll::-webkit-scrollbar-thumb:hover {
+  background: #a6a6a6;
+}
+
+/* line 63, ../sass/screen.scss */
+.text-shadow {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* line 68, ../sass/screen.scss */
+.content p {
+  margin-bottom: 15px;
+}

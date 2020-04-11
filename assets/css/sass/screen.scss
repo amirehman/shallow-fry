@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+$orange-color: #c0392b;
+
+
+body {
+    font-family: "Comic Neue", cursive;
+    overflow-x: hidden;
+}
+
+
+.sf-z-12-hover {
+    &:hover {
+        z-index: 12;
+    }
+}
+
+.category-item {
+    &:hover {
+        .category-item-info {
+            opacity: 1;
+            z-index: 0;
+            // transition-duration: 0.2s;
+            // transition-delay: 0.5s;
+        }
+    }
+}
+
+.category-item-info {
+    opacity: 0;
+    z-index: -10;
+    background: rgba(0, 0, 0, 1);
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(0, 0, 0, 0)),
+        color-stop(33%, rgba(0, 0, 0, 0)),
+        to(rgba(0, 0, 0, 0.85))
+    );
+}
+.swiper-container {
+    &.category-swiper-container {
+        overflow: initial;
+    }
+}
+
+.fsm-inside-scroll {
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: lighten(gray, 35%);
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: lighten(gray, 15%);
+    }
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+
+.content {
+    p {
+        margin-bottom: 15px;
+    }
+}

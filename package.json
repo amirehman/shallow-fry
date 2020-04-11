@@ -1,0 +1,24 @@
+{
+  "name": "shallow-fry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finmavis/webpack-4-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finmavis/webpack-4-boilerplate/issues"
+  },
+  "homepage": "https://github.com/finmavis/webpack-4-boilerplate#readme",
+  "dependencies": {
+    "tailwindcss": "^1.2.0",
+    "vivid-icons": "^1.0.10"
+  }
+}
